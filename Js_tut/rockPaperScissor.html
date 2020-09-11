@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/rockPapperScissor.css">
+</head>
+
+<body class="body body-full">
+
+    <main class="main">
+
+        <div class="score">
+            <div class="score-player">
+                <h2 class="title">Player</h2>
+                <hr>
+                <p id="player-count">0</p>
+            </div>
+            <div class="score-computer">
+                <h2 class="title">Computer</h2>
+                <hr>
+                <p id="computer-count">0</p>
+            </div>
+        </div>
+        <h1 class="mb-4"> Rock Paper Scissor </h1>
+        <div class="game-container">
+            <div id="selector">
+                <h4> Choose Your call</h4>
+                <div class="d-flex flex-row align-items-center justify-content-around my-5">
+                    <a class="game-item rock " id="rock" href="javascript:" onclick="rpsGame(this)"><img
+                            src="./assets/img/stone.svg" alt="rock" class="img-respnsive" height="auto"
+                            width="100px"></a>
+                    <a class=" game-item paper" id="paper" href="javascript:" onclick="rpsGame(this)"><img
+                            src="./assets/img/papper.webp" alt="papper" height="auto" width="100px">
+                    </a>
+                    <a class="game-item scissor" id="scissor" href="javascript:" onclick="rpsGame(this)"><img
+                            src="./assets/img/cut.svg" alt="scissor" height="auto" width="100px">
+                    </a>
+                </div>
+            </div>
+            <div class="result" id="result" hidden>
+                <h4>Congratulations </h4>
+                <div class=" d-flex flex-row align-items-center justify-content-around my-5">
+                    <a class="game-item  selected" id="player-call"><img src="" alt="" class="img-responsive"
+                            height="auto" width="100px"></a>
+                    <div class=" border px-5 py-2" id="message"> </div>
+                    <a class="game-item " id="computer-call"><img src="" alt="" height="auto" width="100px">
+                    </a>
+                </div>
+                <div class="mx-auto"><button type="button" class="btn btn-primary" id="btn-newGame">New Game</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./assets/js/rockPaperScissor.js"></script>
+</body>
+
+</html>

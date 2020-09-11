@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.todolist-wrapper {
+  width: 500px;
+  min-height: 300px;
+  overflow: scroll;
+  box-shadow: 1px 2px 40px rgba(0, 0, 0, 0.12);
+  margin: 100px auto;
+  display: flex;
+  flex-flow: column;
+}
+
+.todolist-header {
+  background-color: red;
+  padding: 10px 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolist-header .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+/*# sourceMappingURL=todolist.css.map */

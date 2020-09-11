@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- remix icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/todolist.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="todolist-wrapper">
+            <div class="todolist-header">
+                <h4>TO DO LIST</h4>
+                <div class="form-row">
+                    <input type="text" id="todolist-data" class="form-control" placeholder="Enter your content...">
+                    <button class="btn btn-add btn-light ml-3" id="btn-add">Add</button>
+
+                </div>
+                <span class="text-danger"></span>
+            </div>
+            <div class="todolist-content">
+                <ul class="list-unstyled" id="list-content">
+                    <!-- <li class="list-item"> <a href="" class="d-none"> </a> <span class="list-value"></span> <a href="">*</a></li> -->
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./assets/js/todolist.js"></script>
+</body>
+
+</html>

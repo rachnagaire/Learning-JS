@@ -1,0 +1,52 @@
+-Tasks-
+validate required
+show error message in span
+onchange remove validation
+
+-Lessons-
+Set Attributes#
+Query Selector#
+Objects#
+Arrays#
+
+Drag and drop#
+
+
+
+-Exercises-
+The To Do List
+Digital Clock
+Rock Paper Scissors
+
+
+																ToDo List
+																	TextBox 
+																	Button
+																	Button-validation-textbox-empty
+																	Valid-data-add/enter-textbox-value-clear
+																	then-append-in-list-with-remove-button
+																	remove-button-click-remove-the-element
+																	except-remove-button-list-item-click-cross
+																	
+Arrays
+loop
+Access Full Arrays
+Array with object
+length
+Accessing last element
+push
+pop
+shift
+unshift
+join
+split
+splice
+merge
+slicing
+filter#
+indexOf
+find
+
+
+setInterval
+setTimeOut

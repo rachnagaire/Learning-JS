@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+
+    <div id="validation-summary">
+
+    </div>
+    <form class="form-horizontal" style="margin: 100px;">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend>Form Name</legend>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Text Input</label>
+                <div class="col-md-4">
+                    <input id="Name" name="textinput" type="text" placeholder="placeholder"
+                        class="form-control input-md">
+                    <span class="text-danger">Required</span>
+                </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="color">Color</label>
+                <div class="col-md-4">
+                    <select id="color" name="selectbasic" class="form-control">
+                        <option value="">Choose your color</option>
+                        <option value="1">green</option>
+                        <option value="2">yellow</option>
+                    </select>
+                    <span class="value"></span>
+                    <span class="text-danger">Required</span>
+                </div>
+            </div>
+
+            <!-- Multiple Radios -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="gender">Multiple Radios</label>
+                <div class="col-md-4">
+                    <div class="radio">
+                        <label for="gender-M">
+                            <input type="radio" name="gender" id="gender-M" value="1">
+                            Male
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label for="gender-f">
+                            <input type="radio" name="gender" id="gender-F" value="2">
+                            Female
+                        </label>
+                    </div>
+                    <span class="text-danger">Required</span>
+                </div>
+            </div>
+
+            <!-- Multiple Checkboxes -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="choice">Multiple Checkboxes</label>
+                <div class="col-md-4">
+                    <div class="checkbox">
+                        <label for="iAgree">
+                            <input type="checkbox" name="choice" id="iAgree" value="1">
+                            Agree
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="disagree">
+                            <input type="checkbox" name="choice" id="disagree" value="2">
+                            Disagree
+                        </label>
+                    </div>
+                    <span class="text-danger">Required</span>
+                </div>
+            </div>
+
+
+
+            <!-- Password input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="password">Password </label>
+                <div class="col-md-4">
+                    <input id="password" name="password" type="password" placeholder="placeholder"
+                        class="form-control input-md">
+                    <span class="text-danger">Required</span>
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton">Submit</label>
+                <div class="col-md-4">
+                    <button type="button" id="submit" name="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
+
+    <script src="./assets/js/main.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>

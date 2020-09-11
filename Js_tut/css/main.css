@@ -1,0 +1,87 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.todolist-wrapper {
+  width: 500px;
+  min-height: 300px;
+  overflow: scroll;
+  box-shadow: 1px 2px 40px rgba(0, 0, 0, 0.12);
+  margin: 100px auto;
+  display: flex;
+  flex-flow: column;
+}
+
+.todolist-header {
+  background-color: red;
+  padding: 10px 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todolist-header .form-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row;
+}
+
+.body-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.main {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  flex-grow: 1;
+}
+
+.game-container {
+  padding: 3rem;
+  min-height: 500px;
+  height: 100%;
+  width: 1000px;
+  box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.game-item {
+  box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  border: 1px solid #fff;
+  border-radius: 0.4rem;
+}
+
+.game-item:hover, .game-item.active {
+  border: 1px solid green;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.score {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: auto;
+  flex-flow: column;
+}
+
+.score-player, .score-computer {
+  display: flex;
+  align-items: center;
+}
+
+.score-player .title, .score-computer .title {
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=main.css.map */
